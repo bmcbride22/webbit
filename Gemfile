@@ -48,6 +48,10 @@ gem "bootsnap", require: false
 # Use devise for user authentication
 gem 'devise', '~> 4.8', '>= 4.8.1'
 
+# Use for active storage
+gem "image_processing", ">= 1.2"
+
+
 # Use Sass to process CSS
 # gem "sassc-rails"
 
@@ -76,3 +80,5 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+
+gem "inline_svg", "~> 1.8"
