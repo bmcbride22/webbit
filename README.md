@@ -22,3 +22,11 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+Modelling the app
+
+User - focused on the user
+Post - the user authors a post. Has multiple media types (text /image / link)
+Subreddit - Category of submissions (community)
+Comments - Response given to the submission from one user to another
+Subscription - a user can subscribe to a community to recieve posts etc
